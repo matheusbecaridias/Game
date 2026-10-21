@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guardiões da Escola</title>
+    <style>
+        @font-face {
+            font-family: "Pixelify Sans";
+            src: url("assets/fonts/PixelifySans-Bold.woff2") format("woff2");
+            font-weight: 700;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        :root {
+            color-scheme: dark;
+            background: #08111f;
+            color: #ffffff;
+            font-family: "Pixelify Sans", Arial, Helvetica, sans-serif;
+            font-weight: 700;
+        }
+
+        html,
+        body {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            overflow: hidden;
+            background: #08111f;
+        }
+
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #game-container {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        canvas {
+            display: block;
+        }
+
+        #profile-name-input::placeholder {
+            font-family: "Pixelify Sans", Arial, Helvetica, sans-serif;
+            font-weight: 700;
+            color: #d6e3d8;
+            opacity: 1;
+        }
+
+        #profile-name-input:focus {
+            border-color: #f2c66d !important;
+            box-shadow: 0 4px 0 rgba(54, 29, 15, 0.9), inset 0 0 0 2px rgba(255, 255, 255, 0.12) !important;
+        }
+    </style>
+  <script type="module" crossorigin src="./assets/index-BKKZP2SU.js"></script>
+</head>
+<body>
+    <div id="game-container"></div>
+</body>
+</html>
+
