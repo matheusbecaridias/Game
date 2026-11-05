@@ -15,7 +15,7 @@
     <a href="https://github.com/matheusbecaridias/Guardioes-da-Escola/releases/download/1.0.0/Guardioes.da.Escola-1.0.0.AppImage">
     <img src="https://img.shields.io/badge/▶_BAIXAR_O_JOGO-For_Linux-167D4A?style=for-the-badge" alt="Baixar Guardiões da Escola para Linux">
   </a>
-  <a href="#-sobre-o-projeto">
+  <a href="https://github.com/matheusbecaridias/Guardioes-da-Escola">
     <img src="https://img.shields.io/badge/Conhecer-o_projeto-17365D?style=for-the-badge" alt="Conhecer o projeto">
   </a>
 </p>
